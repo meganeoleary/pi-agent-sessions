@@ -1,0 +1,22 @@
+{
+  "name": "pi-agent-sessions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Durable multi-turn Pi agent sessions with Hatchet",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "worker": "tsx src/worker.ts",
+    "session": "tsx src/run.ts"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "0.85.1",
+    "@hatchet-dev/typescript-sdk": "^1.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
